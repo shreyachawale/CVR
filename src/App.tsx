@@ -15,6 +15,7 @@ import {
   AlertCircle 
 } from 'lucide-react';
 import CustomerDataTable, { sampleData } from './components/CustomerDataTable';
+import FilterHeader from './components/FilterHeader';
 
 function App() {
   const [filters, setFilters] = useState({});
@@ -63,8 +64,11 @@ function App() {
     <div className="min-h-screen bg-gray-50">
       <Header />
       
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Metrics Grid */}
+        <div className="grid grid-cols-1 gap-8 mb-8">
+          <FilterHeader />
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           {metrics.map((metric, index) => (
             <MetricCard
