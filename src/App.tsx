@@ -27,7 +27,7 @@ function App() {
 
   const metrics = [
     {
-      title: 'Total Site Visits',
+      title: 'Total Sales Visits',
       value: '2,847',
       change: '+12.3% from last month',
       trend: 'up' as const,
@@ -35,7 +35,7 @@ function App() {
       color: 'blue' as const
     },
     {
-      title: 'Good Quality CVR',
+      title: 'Sale in %',
       value: '95%',
       change: '+0.2 from last quarter',
       trend: 'up' as const,
@@ -43,7 +43,7 @@ function App() {
       color: 'green' as const
     },
     {
-      title: '% of salesman in good CVR',
+      title: 'Cross-sell Quantile',
       value: '94.2%',
       change: '+2.1% this quarter',
       trend: 'up' as const,
@@ -51,7 +51,7 @@ function App() {
       color: 'purple' as const
     },
     {
-      title: 'Positive Sentiments',
+      title: 'Attendance %',
       value: '98.1%',
       change: '+1.5% improvement',
       trend: 'up' as const,

@@ -118,7 +118,7 @@ export const LeaderBoard: React.FC = () => {
             <tr>
               <th className="px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Rank</th>
               <th className="px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Name</th>
-              <th className="px-6 py-4 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Safety Score</th>
+              <th className="px-6 py-4 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Performance Score</th>
               <th className="px-6 py-4 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Avg Rating</th>
               <th className="px-6 py-4 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Total Visits</th>
               <th className="px-6 py-4 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Details</th>

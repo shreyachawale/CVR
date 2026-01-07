@@ -12,7 +12,7 @@ export const Header: React.FC = () => {
                 <Activity className="text-white" size={24} />
               </div>
               <div>
-                <h1 className="text-xl font-bold text-gray-900">ChemFlow Dashboard</h1>
+                <h1 className="text-xl font-bold text-gray-900">Sales Analytics</h1>
                 <p className="text-sm text-gray-600">Chemical Operations Management</p>
               </div>
             </div>

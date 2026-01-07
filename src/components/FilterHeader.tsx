@@ -3,8 +3,8 @@ import { ChevronDown, Filter } from 'lucide-react';
 
 const FilterHeader = () => {
   const filters = [
-    { label: 'Industry', value: 'All Industries' },
-    { label: 'Collector', value: 'John Smith' },
+    { label: 'State', value: 'All Industries' },
+    { label: 'Area', value: 'John Smith' },
     { label: 'Product', value: 'All Products' },
     { label: 'Customer', value: 'All Customers' },
     { label: 'Time', value: 'Last 30 Days' },
@@ -13,7 +13,7 @@ const FilterHeader = () => {
   return (
     <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-5">
       <div className="flex items-center justify-between mb-3">
-        <h1 className="text-xl font-bold text-gray-900">Customer Sales Visit Dashboard</h1>
+        <h1 className="text-xl font-bold text-gray-900">Salesman Rating Dashboard</h1>
         <div className="flex items-center space-x-2 text-xs text-gray-600">
           <Filter size={16} />
           <span>Filters Applied</span>
