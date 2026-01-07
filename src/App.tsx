@@ -35,7 +35,7 @@ function App() {
       color: 'blue' as const
     },
     {
-      title: 'Sale in %',
+      title: 'Sell in %',
       value: '95%',
       change: '+0.2 from last quarter',
       trend: 'up' as const,
